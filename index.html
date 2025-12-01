@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/png" href="f.png">
+  <title>:: Proyecto educativo :: Arca Viva </title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(180deg, #EEF6FF, #FFFFFF);
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      color: #0f172a;
+    }
+
+    .card {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 24px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      max-width: 420px;
+      width: 90%;
+    }
+
+    .logo {
+      width: 140px;
+      height: auto;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 26px;
+      margin-bottom: 12px;
+      color: #4F46E5;
+    }
+
+    p {
+      font-size: 15px;
+      color: #64748B;
+      margin-bottom: 24px;
+    }
+
+    .loader {
+      width: 70px;
+      height: 70px;
+      border: 6px solid #dbeafe;
+      border-top-color: #4F46E5;
+      border-radius: 50%;
+      animation: spin 1.2s linear infinite;
+      margin: 0 auto 20px auto;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .pill {
+      background: linear-gradient(90deg, #4F46E5, #06B6D4);
+      padding: 6px 12px;
+      border-radius: 50px;
+      color: #fff;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="f.png" alt="Logo Arca Viva">
+    <h1>En Mantenimiento</h1>
+    <div class="loader"></div>
+    <p>Estamos cargando más contenido y nuevas fotografías del proyecto.<br>Vuelve pronto para ver los avances.</p>
+    <span class="pill">Arca Viva </span>
+  </div>
+</body>
+</html>
